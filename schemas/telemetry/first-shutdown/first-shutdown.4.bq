@@ -1321,6 +1321,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "application_reputation_allowlist_match",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "application_reputation_binary",
             "type": "STRING"
           },
@@ -1332,6 +1337,16 @@
           {
             "mode": "NULLABLE",
             "name": "application_reputation_binary_type",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "application_reputation_blocklist_match",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "application_reputation_count",
             "type": "STRING"
           },
           {
@@ -1377,6 +1392,31 @@
           {
             "mode": "NULLABLE",
             "name": "application_reputation_should_block",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "apz_aware_key_listeners",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "apz_aware_mousemove_listeners",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "async_animation_content_too_large_frame_size",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "async_animation_content_too_large_percentage",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "async_animation_frame_size",
             "type": "STRING"
           },
           {
@@ -1467,6 +1507,11 @@
           {
             "mode": "NULLABLE",
             "name": "blocklist_sync_file_load",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "box_align_props_in_blocks_flag",
             "type": "STRING"
           },
           {
@@ -2056,6 +2101,46 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "compositor_animation_duration",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_max_contiguous_drops_apz",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_max_contiguous_drops_chrome",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_max_contiguous_drops_content",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_max_layer_area",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_throughput_apz",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_throughput_chrome",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "compositor_animation_throughput_content",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "container_used",
             "type": "STRING"
           },
@@ -2097,6 +2182,21 @@
           {
             "mode": "NULLABLE",
             "name": "content_full_paint_time",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "content_js_background_tick_delay_total_ms",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "content_js_foreground_tick_delay_total_ms",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "content_js_known_tick_delay_ms",
             "type": "STRING"
           },
           {
@@ -2162,6 +2262,156 @@
           {
             "mode": "NULLABLE",
             "name": "crash_store_compressed_bytes",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_beforeunloadevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_compositionevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_customevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_devicemotionevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_deviceorientationevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_dragevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_errorevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_event",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_events",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_hashchangeevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_htmlevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_keyboardevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_keyevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_messageevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_mouseevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_mouseevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_mousescrollevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_mutationevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_mutationevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_popstateevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_scrollareaevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_storageevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_svgevents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_textevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_timeevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_touchevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_uievent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_uievents",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_xulcommandevent",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "create_event_xulcommandevents",
             "type": "STRING"
           },
           {
@@ -2302,6 +2552,96 @@
           {
             "mode": "NULLABLE",
             "name": "database_successful_unlock",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_ibm866",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_iso2022jp",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_iso_8859_5",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_koi8r",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_koi8u",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macarabic",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macce",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_maccroatian",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_maccyrillic",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macdevanagari",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macfarsi",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macgreek",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macgujarati",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macgurmukhi",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_machebrew",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macicelandic",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macromanian",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "decoder_instantiated_macturkish",
             "type": "STRING"
           },
           {
@@ -2651,6 +2991,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "devtools_os_enumerated_per_user",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_os_is_64_bits_per_user",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "devtools_paintflashing_opened_count",
             "type": "STRING"
           },
@@ -2692,6 +3042,16 @@
           {
             "mode": "NULLABLE",
             "name": "devtools_read_heap_snapshot_ms",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_reload_addon_installed_count",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_reload_addon_reload_count",
             "type": "STRING"
           },
           {
@@ -2767,6 +3127,36 @@
           {
             "mode": "NULLABLE",
             "name": "devtools_styleeditor_time_active_seconds",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tabs_open_average_linear",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tabs_open_peak_linear",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tabs_pinned_average_linear",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tabs_pinned_peak_linear",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tilt_opened_count",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "devtools_tilt_time_active_seconds",
             "type": "STRING"
           },
           {
@@ -2872,6 +3262,11 @@
           {
             "mode": "NULLABLE",
             "name": "devtools_webide_wifi_connection_result",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "display_item_usage_count",
             "type": "STRING"
           },
           {
@@ -3021,6 +3416,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "document_data_uri_loads",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "document_with_expanded_principal",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "dom_script_kind",
             "type": "STRING"
           },
@@ -3102,6 +3507,11 @@
           {
             "mode": "NULLABLE",
             "name": "family_safety",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "feed_protocol_usage",
             "type": "STRING"
           },
           {
@@ -3296,6 +3706,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "file_embedded_serviceworkers",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "find_plugins",
             "type": "STRING"
           },
@@ -3347,6 +3762,11 @@
           {
             "mode": "NULLABLE",
             "name": "forget_skippable_max",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "form_isindex_used",
             "type": "STRING"
           },
           {
@@ -3576,6 +3996,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "fx_session_restore_dom_storage_size_estimate_chars",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "fx_session_restore_file_size_bytes",
             "type": "STRING"
           },
@@ -3716,6 +4141,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "fx_tab_switch_total_ms",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "fx_tab_switch_update_ms",
             "type": "STRING"
           },
@@ -3847,6 +4277,11 @@
           {
             "mode": "NULLABLE",
             "name": "gc_mark_roots_ms",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "gc_max_pause_ms",
             "type": "STRING"
           },
           {
@@ -4066,6 +4501,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "gradient_duration",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "gradient_retention_time",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "graphics_driver_startup_test",
             "type": "STRING"
           },
@@ -4201,12 +4646,22 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_auth_dialog_stats_2",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_auth_dialog_stats_3",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "http_auth_type_stats",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_cache_disposition_2",
             "type": "STRING"
           },
           {
@@ -4272,6 +4727,11 @@
           {
             "mode": "NULLABLE",
             "name": "http_cache_io_queue_2_write_priority",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_cache_miss_halflife_experiment_2",
             "type": "STRING"
           },
           {
@@ -4411,12 +4871,32 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_page_cache_read_time",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_page_cache_read_time_v2",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
+            "name": "http_page_complete_load",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_page_complete_load_cached",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_page_complete_load_cached_v2",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_page_complete_load_net",
             "type": "STRING"
           },
           {
@@ -4446,6 +4926,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_page_open_to_first_from_cache",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_page_open_to_first_from_cache_v2",
             "type": "STRING"
           },
@@ -4462,6 +4947,11 @@
           {
             "mode": "NULLABLE",
             "name": "http_page_revalidation",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_page_tcp_connection",
             "type": "STRING"
           },
           {
@@ -4516,7 +5006,17 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_scheme_upgrade",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_scheme_upgrade_type",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_sub_cache_read_time",
             "type": "STRING"
           },
           {
@@ -4526,7 +5026,22 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_sub_complete_load",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_sub_complete_load_cached",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_sub_complete_load_cached_v2",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_sub_complete_load_net",
             "type": "STRING"
           },
           {
@@ -4556,6 +5071,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "http_sub_open_to_first_from_cache",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "http_sub_open_to_first_from_cache_v2",
             "type": "STRING"
           },
@@ -4572,6 +5092,11 @@
           {
             "mode": "NULLABLE",
             "name": "http_sub_revalidation",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "http_sub_tcp_connection",
             "type": "STRING"
           },
           {
@@ -4816,6 +5341,21 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "js_aot_usage",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "js_deprecated_language_extensions_in_addons",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "js_deprecated_language_extensions_in_content",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "js_privileged_parser_compile_lazy_after_ms",
             "type": "STRING"
           },
@@ -4936,7 +5476,17 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "media_android_video_tunneling_support",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "media_decoder_backend_used",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "media_decoding_process_crash",
             "type": "STRING"
           },
           {
@@ -5066,6 +5616,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "memory_heap_committed_unused",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "memory_heap_overhead_fraction",
             "type": "STRING"
           },
@@ -5146,6 +5701,26 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "mixed_content_hsts_priming",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "mixed_content_hsts_priming_2",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "mixed_content_hsts_priming_requests",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "mixed_content_hsts_priming_result",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "mixed_content_object_subrequest",
             "type": "STRING"
           },
@@ -5161,7 +5736,22 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "moz_blob_in_xhr",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "moz_chunked_arraybuffer_in_xhr",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "moz_chunked_text_in_xhr",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "moz_sqlite_cookies_block_main_thread_ms",
             "type": "STRING"
           },
           {
@@ -5581,6 +6171,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "network_race_cache_with_network_usage",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "network_race_cache_with_network_usage_2",
             "type": "STRING"
           },
@@ -5606,7 +6201,27 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "newtab_page_life_span",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "newtab_page_life_span_suggested",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "newtab_page_pinned_sites_count",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "newtab_page_shown",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "newtab_page_site_clicked",
             "type": "STRING"
           },
           {
@@ -6007,6 +6622,11 @@
           {
             "mode": "NULLABLE",
             "name": "plugins_notification_shown",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "plugins_notification_user_action",
             "type": "STRING"
           },
           {
@@ -6426,6 +7046,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "sandbox_failed_launch",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "sandbox_has_seccomp_bpf",
             "type": "STRING"
           },
@@ -6447,6 +7072,11 @@
           {
             "mode": "NULLABLE",
             "name": "sandbox_media_enabled",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "script_block_incorrect_mime",
             "type": "STRING"
           },
           {
@@ -6477,6 +7107,11 @@
           {
             "mode": "NULLABLE",
             "name": "scroll_anchor_adjustment_length",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "scroll_input_methods",
             "type": "STRING"
           },
           {
@@ -6606,6 +7241,11 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "shared_worker_count",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "shared_worker_spawn_gets_queued",
             "type": "STRING"
           },
@@ -6667,6 +7307,31 @@
           {
             "mode": "NULLABLE",
             "name": "slow_script_page_count",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "social_enabled_on_session",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "social_panel_clicks",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "social_sidebar_open_duration",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "social_sidebar_state",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "social_toolbar_buttons",
             "type": "STRING"
           },
           {
@@ -7131,6 +7796,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "tcp_fast_open",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "tcp_fast_open_2",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "tcp_fast_open_3",
             "type": "STRING"
           },
@@ -7207,6 +7882,11 @@
           {
             "mode": "NULLABLE",
             "name": "telemetry_discarded_archived_pings_size_mb",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "telemetry_discarded_content_pings_count",
             "type": "STRING"
           },
           {
@@ -7876,6 +8556,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "urlclassifier_match_result",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "urlclassifier_match_threat_type_result",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "urlclassifier_negative_cache_duration",
             "type": "STRING"
           },
@@ -8371,12 +9061,42 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_create_attribute_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_create_attribute_ns_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_create_attribute_ns_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_create_attribute_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_create_image_bitmap_canvas_rendering_context2_d_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_create_image_bitmap_canvas_rendering_context2_d_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_data_container_event_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_data_container_event_page",
             "type": "STRING"
           },
           {
@@ -8421,6 +9141,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_dom_exception_code_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_dom_exception_code_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_dom_quad_bounds_attr_document",
             "type": "STRING"
           },
@@ -8461,12 +9191,52 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_attribute_node_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_attribute_node_ns_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_attribute_node_ns_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_attribute_node_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_prevent_default_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_prevent_default_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_get_property_css_value_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_get_property_css_value_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_set_user_data_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_get_set_user_data_page",
             "type": "STRING"
           },
           {
@@ -8497,6 +9267,16 @@
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_import_xul_into_content_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_input_encoding_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_input_encoding_page",
             "type": "STRING"
           },
           {
@@ -8547,6 +9327,16 @@
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_mouse_event_moz_pressure_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_moz_before_paint_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_moz_before_paint_page",
             "type": "STRING"
           },
           {
@@ -8611,12 +9401,32 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_navigator_battery_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_navigator_battery_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_navigator_get_user_media_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_navigator_get_user_media_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_no_exposed_props_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_no_exposed_props_page",
             "type": "STRING"
           },
           {
@@ -8631,12 +9441,32 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_node_value_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_node_value_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_orientation_event_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_orientation_event_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_owner_element_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_owner_element_page",
             "type": "STRING"
           },
           {
@@ -8701,12 +9531,52 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_remove_attribute_node_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_remove_attribute_node_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_rtc_peer_connection_get_streams_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_rtc_peer_connection_get_streams_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_send_as_binary_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_send_as_binary_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_set_attribute_node_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_set_attribute_node_ns_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_set_attribute_node_ns_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_set_attribute_node_page",
             "type": "STRING"
           },
           {
@@ -8727,6 +9597,16 @@
           {
             "mode": "NULLABLE",
             "name": "use_counter2_deprecated_sync_xml_http_request_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_text_content_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_text_content_page",
             "type": "STRING"
           },
           {
@@ -8791,6 +9671,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_window_content_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_window_content_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_window_content_untrusted_document",
             "type": "STRING"
           },
@@ -8801,12 +9691,42 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_window_controllers_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_window_controllers_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_xml_base_attribute_document",
             "type": "STRING"
           },
           {
             "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_xml_base_attribute_for_style_attr_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_xml_base_attribute_for_style_attr_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "use_counter2_deprecated_xml_base_attribute_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_xml_base_attribute_with_styled_element_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_deprecated_xml_base_attribute_with_styled_element_page",
             "type": "STRING"
           },
           {
@@ -8907,6 +9827,16 @@
           {
             "mode": "NULLABLE",
             "name": "use_counter2_enumeratedevicesunfocused_page",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_external_addsearchengine_document",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "use_counter2_external_addsearchengine_page",
             "type": "STRING"
           },
           {
@@ -9526,6 +10456,16 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "video_cdm_created",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "video_chromium_cdm_max_shmems",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "video_decoded_h264_sps_constraint_set_flag",
             "type": "STRING"
           },
@@ -9542,6 +10482,11 @@
           {
             "mode": "NULLABLE",
             "name": "video_dropped_frames_proportion",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "video_eme_play_success",
             "type": "STRING"
           },
           {
@@ -9587,6 +10532,21 @@
           {
             "mode": "NULLABLE",
             "name": "video_vp9_benchmark_fps",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "view_source_external_result_boolean",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "view_source_in_browser_opened_boolean",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "view_source_in_window_opened_boolean",
             "type": "STRING"
           },
           {
@@ -9702,6 +10662,11 @@
           {
             "mode": "NULLABLE",
             "name": "webcrypto_method",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "webcrypto_method_secure",
             "type": "STRING"
           },
           {
@@ -10191,6 +11156,21 @@
           },
           {
             "mode": "NULLABLE",
+            "name": "webvr_time_spend_for_viewing_in_2d",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "webvr_time_spend_for_viewing_in_oculus",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "webvr_time_spend_for_viewing_in_openvr",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
             "name": "webvr_time_spent_viewing_in_2d",
             "type": "STRING"
           },
@@ -10232,6 +11212,11 @@
           {
             "mode": "NULLABLE",
             "name": "wr_sceneswap_time",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "xcto_nosniff_block_image",
             "type": "STRING"
           },
           {
@@ -10432,6 +11417,91 @@
               }
             ],
             "mode": "REPEATED",
+            "name": "blocked_on_plugin_instance_destroy_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "blocked_on_plugin_instance_init_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "blocked_on_plugin_module_init_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "blocked_on_plugin_stream_init_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "blocked_on_pluginasyncsurrogate_waitforinit_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
             "name": "canvas_webgl_accl_failure_id",
             "type": "RECORD"
           },
@@ -10450,6 +11520,40 @@
             ],
             "mode": "REPEATED",
             "name": "canvas_webgl_failure_id",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "content_js_background_tick_delay_events_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "content_js_foreground_tick_delay_events_ms",
             "type": "RECORD"
           },
           {
@@ -10993,6 +12097,23 @@
               }
             ],
             "mode": "REPEATED",
+            "name": "fx_migration_imported_homepage",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
             "name": "fx_migration_logins_import_ms",
             "type": "RECORD"
           },
@@ -11299,6 +12420,23 @@
               }
             ],
             "mode": "REPEATED",
+            "name": "hsts_priming_request_duration",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
             "name": "http_channel_disposition_upgrade",
             "type": "RECORD"
           },
@@ -11453,6 +12591,23 @@
             ],
             "mode": "REPEATED",
             "name": "ipc_write_main_thread_latency_ms",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
+            "name": "js_telemetry_addon_exceptions",
             "type": "RECORD"
           },
           {
@@ -12642,6 +13797,23 @@
               }
             ],
             "mode": "REPEATED",
+            "name": "web_permission_cleared",
+            "type": "RECORD"
+          },
+          {
+            "fields": [
+              {
+                "mode": "REQUIRED",
+                "name": "key",
+                "type": "STRING"
+              },
+              {
+                "mode": "REQUIRED",
+                "name": "value",
+                "type": "STRING"
+              }
+            ],
+            "mode": "REPEATED",
             "name": "webext_background_page_load_ms_by_addonid",
             "type": "RECORD"
           },
@@ -12878,6 +14050,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "application_reputation_allowlist_match",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "application_reputation_binary",
                     "type": "STRING"
                   },
@@ -12889,6 +14066,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "application_reputation_binary_type",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "application_reputation_blocklist_match",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "application_reputation_count",
                     "type": "STRING"
                   },
                   {
@@ -12934,6 +14121,31 @@
                   {
                     "mode": "NULLABLE",
                     "name": "application_reputation_should_block",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "apz_aware_key_listeners",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "apz_aware_mousemove_listeners",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "async_animation_content_too_large_frame_size",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "async_animation_content_too_large_percentage",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "async_animation_frame_size",
                     "type": "STRING"
                   },
                   {
@@ -13024,6 +14236,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "blocklist_sync_file_load",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "box_align_props_in_blocks_flag",
                     "type": "STRING"
                   },
                   {
@@ -13568,6 +14785,46 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "compositor_animation_duration",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_max_contiguous_drops_apz",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_max_contiguous_drops_chrome",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_max_contiguous_drops_content",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_max_layer_area",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_throughput_apz",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_throughput_chrome",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "compositor_animation_throughput_content",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "container_used",
                     "type": "STRING"
                   },
@@ -13579,6 +14836,21 @@
                   {
                     "mode": "NULLABLE",
                     "name": "content_full_paint_time",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "content_js_background_tick_delay_total_ms",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "content_js_foreground_tick_delay_total_ms",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "content_js_known_tick_delay_ms",
                     "type": "STRING"
                   },
                   {
@@ -13624,6 +14896,156 @@
                   {
                     "mode": "NULLABLE",
                     "name": "crash_store_compressed_bytes",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_beforeunloadevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_compositionevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_customevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_devicemotionevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_deviceorientationevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_dragevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_errorevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_event",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_events",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_hashchangeevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_htmlevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_keyboardevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_keyevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_messageevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_mouseevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_mouseevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_mousescrollevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_mutationevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_mutationevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_popstateevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_scrollareaevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_storageevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_svgevents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_textevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_timeevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_touchevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_uievent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_uievents",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_xulcommandevent",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "create_event_xulcommandevents",
                     "type": "STRING"
                   },
                   {
@@ -13759,6 +15181,96 @@
                   {
                     "mode": "NULLABLE",
                     "name": "database_successful_unlock",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_ibm866",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_iso2022jp",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_iso_8859_5",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_koi8r",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_koi8u",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macarabic",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macce",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_maccroatian",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_maccyrillic",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macdevanagari",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macfarsi",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macgreek",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macgujarati",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macgurmukhi",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_machebrew",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macicelandic",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macromanian",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "decoder_instantiated_macturkish",
                     "type": "STRING"
                   },
                   {
@@ -14068,6 +15580,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "devtools_os_enumerated_per_user",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_os_is_64_bits_per_user",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "devtools_paintflashing_opened_count",
                     "type": "STRING"
                   },
@@ -14109,6 +15631,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "devtools_read_heap_snapshot_ms",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_reload_addon_installed_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_reload_addon_reload_count",
                     "type": "STRING"
                   },
                   {
@@ -14184,6 +15716,36 @@
                   {
                     "mode": "NULLABLE",
                     "name": "devtools_styleeditor_time_active_seconds",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tabs_open_average_linear",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tabs_open_peak_linear",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tabs_pinned_average_linear",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tabs_pinned_peak_linear",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tilt_opened_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "devtools_tilt_time_active_seconds",
                     "type": "STRING"
                   },
                   {
@@ -14293,6 +15855,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "display_item_usage_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "display_scaling",
                     "type": "STRING"
                   },
@@ -14329,6 +15896,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "document_analytics_tracker_fastblocked",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "document_data_uri_loads",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "document_with_expanded_principal",
                     "type": "STRING"
                   },
                   {
@@ -14464,6 +16041,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "family_safety",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "feed_protocol_usage",
                     "type": "STRING"
                   },
                   {
@@ -14658,6 +16240,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "file_embedded_serviceworkers",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "find_plugins",
                     "type": "STRING"
                   },
@@ -14704,6 +16291,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "forget_skippable_max",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "form_isindex_used",
                     "type": "STRING"
                   },
                   {
@@ -14883,6 +16475,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "fx_session_restore_dom_storage_size_estimate_chars",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "fx_session_restore_file_size_bytes",
                     "type": "STRING"
                   },
@@ -14994,6 +16591,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "fx_tab_switch_total_e10s_ms",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "fx_tab_switch_total_ms",
                     "type": "STRING"
                   },
                   {
@@ -15129,6 +16731,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "gc_mark_roots_ms",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "gc_max_pause_ms",
                     "type": "STRING"
                   },
                   {
@@ -15358,6 +16965,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "gradient_duration",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "gradient_retention_time",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "graphics_driver_startup_test",
                     "type": "STRING"
                   },
@@ -15503,12 +17120,22 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_auth_dialog_stats_2",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_auth_dialog_stats_3",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "http_auth_type_stats",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_cache_disposition_2",
                     "type": "STRING"
                   },
                   {
@@ -15574,6 +17201,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "http_cache_io_queue_2_write_priority",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_cache_miss_halflife_experiment_2",
                     "type": "STRING"
                   },
                   {
@@ -15708,12 +17340,32 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_page_cache_read_time",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_page_cache_read_time_v2",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_page_complete_load",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_page_complete_load_cached",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_page_complete_load_cached_v2",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_page_complete_load_net",
                     "type": "STRING"
                   },
                   {
@@ -15743,6 +17395,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_page_open_to_first_from_cache",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_page_open_to_first_from_cache_v2",
                     "type": "STRING"
                   },
@@ -15759,6 +17416,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "http_page_revalidation",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_page_tcp_connection",
                     "type": "STRING"
                   },
                   {
@@ -15813,7 +17475,17 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_scheme_upgrade",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_scheme_upgrade_type",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_sub_cache_read_time",
                     "type": "STRING"
                   },
                   {
@@ -15823,7 +17495,22 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_sub_complete_load",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_sub_complete_load_cached",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_sub_complete_load_cached_v2",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_sub_complete_load_net",
                     "type": "STRING"
                   },
                   {
@@ -15853,6 +17540,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "http_sub_open_to_first_from_cache",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "http_sub_open_to_first_from_cache_v2",
                     "type": "STRING"
                   },
@@ -15869,6 +17561,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "http_sub_revalidation",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "http_sub_tcp_connection",
                     "type": "STRING"
                   },
                   {
@@ -16108,7 +17805,22 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "js_aot_usage",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "js_deprecated_array_generics",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "js_deprecated_language_extensions_in_addons",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "js_deprecated_language_extensions_in_content",
                     "type": "STRING"
                   },
                   {
@@ -16223,7 +17935,17 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "media_android_video_tunneling_support",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "media_decoder_backend_used",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "media_decoding_process_crash",
                     "type": "STRING"
                   },
                   {
@@ -16353,6 +18075,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "memory_heap_committed_unused",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "memory_heap_overhead_fraction",
                     "type": "STRING"
                   },
@@ -16433,6 +18160,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "mixed_content_hsts_priming",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "mixed_content_hsts_priming_result",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "mixed_content_object_subrequest",
                     "type": "STRING"
                   },
@@ -16448,7 +18185,17 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "moz_blob_in_xhr",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "moz_chunked_arraybuffer_in_xhr",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "moz_chunked_text_in_xhr",
                     "type": "STRING"
                   },
                   {
@@ -16813,6 +18560,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "network_race_cache_with_network_usage",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "network_race_cache_with_network_usage_2",
                     "type": "STRING"
                   },
@@ -16838,7 +18590,27 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "newtab_page_life_span",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "newtab_page_life_span_suggested",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "newtab_page_pinned_sites_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "newtab_page_shown",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "newtab_page_site_clicked",
                     "type": "STRING"
                   },
                   {
@@ -17214,6 +18986,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "plugins_notification_shown",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "plugins_notification_user_action",
                     "type": "STRING"
                   },
                   {
@@ -17628,6 +19405,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "script_block_incorrect_mime",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "script_block_incorrect_mime_2",
                     "type": "STRING"
                   },
@@ -17654,6 +19436,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "scroll_anchor_adjustment_length",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "scroll_input_methods",
                     "type": "STRING"
                   },
                   {
@@ -17783,6 +19570,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "shared_worker_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "shared_worker_spawn_gets_queued",
                     "type": "STRING"
                   },
@@ -17844,6 +19636,31 @@
                   {
                     "mode": "NULLABLE",
                     "name": "slow_script_page_count",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "social_enabled_on_session",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "social_panel_clicks",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "social_sidebar_open_duration",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "social_sidebar_state",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "social_toolbar_buttons",
                     "type": "STRING"
                   },
                   {
@@ -18258,6 +20075,21 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "stylo_parallel_restyle_fraction",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "stylo_parallel_restyle_fraction_weighted_styled",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "stylo_parallel_restyle_fraction_weighted_traversed",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "subject_principal_accessed_without_script_on_stack",
                     "type": "STRING"
                   },
@@ -18304,6 +20136,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "tap_to_load_image_size",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "tcp_fast_open",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "tcp_fast_open_2",
                     "type": "STRING"
                   },
                   {
@@ -18619,6 +20461,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "urlclassifier_lookup_time_2",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "urlclassifier_match_result",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "urlclassifier_match_threat_type_result",
                     "type": "STRING"
                   },
                   {
@@ -19118,12 +20970,42 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_create_attribute_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_create_attribute_ns_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_create_attribute_ns_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_create_attribute_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_create_image_bitmap_canvas_rendering_context2_d_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_create_image_bitmap_canvas_rendering_context2_d_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_data_container_event_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_data_container_event_page",
                     "type": "STRING"
                   },
                   {
@@ -19168,6 +21050,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_dom_exception_code_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_dom_exception_code_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_dom_quad_bounds_attr_document",
                     "type": "STRING"
                   },
@@ -19208,12 +21100,52 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_attribute_node_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_attribute_node_ns_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_attribute_node_ns_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_attribute_node_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_prevent_default_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_prevent_default_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_get_property_css_value_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_get_property_css_value_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_set_user_data_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_get_set_user_data_page",
                     "type": "STRING"
                   },
                   {
@@ -19244,6 +21176,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_import_xul_into_content_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_input_encoding_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_input_encoding_page",
                     "type": "STRING"
                   },
                   {
@@ -19294,6 +21236,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_mouse_event_moz_pressure_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_moz_before_paint_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_moz_before_paint_page",
                     "type": "STRING"
                   },
                   {
@@ -19358,12 +21310,32 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_navigator_battery_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_navigator_battery_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_navigator_get_user_media_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_navigator_get_user_media_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_no_exposed_props_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_no_exposed_props_page",
                     "type": "STRING"
                   },
                   {
@@ -19378,12 +21350,32 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_node_value_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_node_value_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_orientation_event_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_orientation_event_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_owner_element_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_owner_element_page",
                     "type": "STRING"
                   },
                   {
@@ -19448,12 +21440,52 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_remove_attribute_node_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_remove_attribute_node_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_rtc_peer_connection_get_streams_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_rtc_peer_connection_get_streams_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_send_as_binary_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_send_as_binary_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_set_attribute_node_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_set_attribute_node_ns_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_set_attribute_node_ns_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_set_attribute_node_page",
                     "type": "STRING"
                   },
                   {
@@ -19474,6 +21506,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_sync_xml_http_request_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_text_content_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_text_content_page",
                     "type": "STRING"
                   },
                   {
@@ -19538,6 +21580,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_window_content_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_window_content_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_window_content_untrusted_document",
                     "type": "STRING"
                   },
@@ -19548,12 +21600,42 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_window_controllers_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_window_controllers_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_xml_base_attribute_document",
                     "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_xml_base_attribute_for_style_attr_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_xml_base_attribute_for_style_attr_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "use_counter2_deprecated_xml_base_attribute_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_xml_base_attribute_with_styled_element_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_deprecated_xml_base_attribute_with_styled_element_page",
                     "type": "STRING"
                   },
                   {
@@ -19654,6 +21736,16 @@
                   {
                     "mode": "NULLABLE",
                     "name": "use_counter2_enumeratedevicesunfocused_page",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_external_addsearchengine_document",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "use_counter2_external_addsearchengine_page",
                     "type": "STRING"
                   },
                   {
@@ -20268,6 +22360,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "video_cdm_created",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "video_chromium_cdm_max_shmems",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "video_decoded_h264_sps_constraint_set_flag",
                     "type": "STRING"
                   },
@@ -20284,6 +22386,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "video_dropped_frames_proportion",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "video_eme_play_success",
                     "type": "STRING"
                   },
                   {
@@ -20339,6 +22446,21 @@
                   {
                     "mode": "NULLABLE",
                     "name": "video_vp9_benchmark_fps",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "view_source_external_result_boolean",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "view_source_in_browser_opened_boolean",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "view_source_in_window_opened_boolean",
                     "type": "STRING"
                   },
                   {
@@ -20439,6 +22561,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "webcrypto_method",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "webcrypto_method_secure",
                     "type": "STRING"
                   },
                   {
@@ -20918,6 +23045,11 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "webvr_time_spend_for_viewing_in_2d",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "webvr_time_spent_viewing_in_2d",
                     "type": "STRING"
                   },
@@ -20934,6 +23066,11 @@
                   {
                     "mode": "NULLABLE",
                     "name": "webvtt_used_vtt_cues",
+                    "type": "STRING"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "xcto_nosniff_block_image",
                     "type": "STRING"
                   },
                   {
@@ -21057,6 +23194,91 @@
                       }
                     ],
                     "mode": "REPEATED",
+                    "name": "blocked_on_plugin_instance_destroy_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "blocked_on_plugin_instance_init_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "blocked_on_plugin_module_init_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "blocked_on_plugin_stream_init_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "blocked_on_pluginasyncsurrogate_waitforinit_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
                     "name": "canvas_webgl_accl_failure_id",
                     "type": "RECORD"
                   },
@@ -21075,6 +23297,40 @@
                     ],
                     "mode": "REPEATED",
                     "name": "canvas_webgl_failure_id",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "content_js_background_tick_delay_events_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "content_js_foreground_tick_delay_events_ms",
                     "type": "RECORD"
                   },
                   {
@@ -21550,6 +23806,23 @@
                       }
                     ],
                     "mode": "REPEATED",
+                    "name": "fx_migration_imported_homepage",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
                     "name": "fx_migration_logins_import_ms",
                     "type": "RECORD"
                   },
@@ -21856,6 +24129,23 @@
                       }
                     ],
                     "mode": "REPEATED",
+                    "name": "hsts_priming_request_duration",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
                     "name": "http_child_omt_stats",
                     "type": "RECORD"
                   },
@@ -21976,6 +24266,23 @@
                     ],
                     "mode": "REPEATED",
                     "name": "ipc_write_main_thread_latency_ms",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "js_telemetry_addon_exceptions",
                     "type": "RECORD"
                   },
                   {
@@ -22877,6 +25184,23 @@
                     ],
                     "mode": "REPEATED",
                     "name": "weave_engine_sync_errors",
+                    "type": "RECORD"
+                  },
+                  {
+                    "fields": [
+                      {
+                        "mode": "REQUIRED",
+                        "name": "key",
+                        "type": "STRING"
+                      },
+                      {
+                        "mode": "REQUIRED",
+                        "name": "value",
+                        "type": "STRING"
+                      }
+                    ],
+                    "mode": "REPEATED",
+                    "name": "web_permission_cleared",
                     "type": "RECORD"
                   },
                   {
@@ -24774,6 +27098,36 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "browser_session_restore_browser_startup_page",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "browser_session_restore_browser_tabs_restorebutton",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "browser_session_restore_number_of_tabs",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "browser_session_restore_number_of_win",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "browser_session_restore_tabbar_restore_available",
+                    "type": "BOOL"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "browser_session_restore_tabbar_restore_clicked",
+                    "type": "BOOL"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "browser_session_restore_worker_restart_count",
                     "type": "INT64"
                   },
@@ -25204,6 +27558,16 @@
                   },
                   {
                     "mode": "NULLABLE",
+                    "name": "network_tcp_overlapped_io_canceled_before_finished",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "network_tcp_overlapped_result_delayed",
+                    "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
                     "name": "networking_data_transferred_captive_portal",
                     "type": "INT64"
                   },
@@ -25281,6 +27645,11 @@
                     "mode": "NULLABLE",
                     "name": "security_intermediate_preloading_num_preloaded",
                     "type": "INT64"
+                  },
+                  {
+                    "mode": "NULLABLE",
+                    "name": "services_sync_fxa_verification_method",
+                    "type": "STRING"
                   },
                   {
                     "mode": "NULLABLE",
