@@ -6,7 +6,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "app_name",
+    "name": "appName",
     "type": "STRING"
   },
   {
@@ -130,12 +130,12 @@
               },
               {
                 "mode": "NULLABLE",
-                "name": "standard_deviation",
+                "name": "standardDeviation",
                 "type": "FLOAT64"
               }
             ],
             "mode": "REQUIRED",
-            "name": "first_view",
+            "name": "firstView",
             "type": "RECORD"
           }
         ],
@@ -180,7 +180,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "run_id",
+    "name": "runId",
     "type": "STRING"
   },
   {
@@ -195,7 +195,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "session_state",
+    "name": "sessionState",
     "type": "STRING"
   },
   {

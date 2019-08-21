@@ -1,7 +1,7 @@
 [
   {
     "mode": "REPEATED",
-    "name": "accessibility_services",
+    "name": "accessibilityServices",
     "type": "STRING"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "client_id",
+    "name": "clientId",
     "type": "STRING"
   },
   {
@@ -36,12 +36,12 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "default_browser",
+    "name": "defaultBrowser",
     "type": "BOOL"
   },
   {
     "mode": "NULLABLE",
-    "name": "default_search",
+    "name": "defaultSearch",
     "type": "STRING"
   },
   {
@@ -51,12 +51,12 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "display_version",
+    "name": "displayVersion",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "distribution_id",
+    "name": "distributionId",
     "type": "STRING"
   },
   {
@@ -76,7 +76,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "flash_usage",
+    "name": "flashUsage",
     "type": "INT64"
   },
   {
@@ -236,7 +236,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "profile_date",
+    "name": "profileDate",
     "type": "INT64"
   },
   {
@@ -273,7 +273,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "show_tracker_stats_share",
+    "name": "showTrackerStatsShare",
     "type": "BOOL"
   },
   {

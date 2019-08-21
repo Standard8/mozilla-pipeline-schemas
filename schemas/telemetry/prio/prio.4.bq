@@ -13,7 +13,7 @@
       },
       {
         "mode": "REQUIRED",
-        "name": "build_id",
+        "name": "buildId",
         "type": "STRING"
       },
       {
@@ -23,7 +23,7 @@
       },
       {
         "mode": "NULLABLE",
-        "name": "display_version",
+        "name": "displayVersion",
         "type": "STRING"
       },
       {
@@ -33,7 +33,7 @@
       },
       {
         "mode": "REQUIRED",
-        "name": "platform_version",
+        "name": "platformVersion",
         "type": "STRING"
       },
       {
@@ -48,7 +48,7 @@
       },
       {
         "mode": "REQUIRED",
-        "name": "xpcom_abi",
+        "name": "xpcomAbi",
         "type": "STRING"
       }
     ],
@@ -58,7 +58,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "creation_date",
+    "name": "creationDate",
     "type": "STRING"
   },
   {
@@ -239,7 +239,7 @@
           }
         ],
         "mode": "REPEATED",
-        "name": "prio_data",
+        "name": "prioData",
         "type": "RECORD"
       },
       {

@@ -6,12 +6,12 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "app_update_channel",
+    "name": "appUpdateChannel",
     "type": "STRING"
   },
   {
     "mode": "REQUIRED",
-    "name": "app_version",
+    "name": "appVersion",
     "type": "STRING"
   },
   {
@@ -134,12 +134,12 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "os_name",
+    "name": "osName",
     "type": "STRING"
   },
   {
     "mode": "REQUIRED",
-    "name": "os_version",
+    "name": "osVersion",
     "type": "STRING"
   },
   {
@@ -154,7 +154,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "telemetry_enabled",
+    "name": "telemetryEnabled",
     "type": "INT64"
   }
 ]

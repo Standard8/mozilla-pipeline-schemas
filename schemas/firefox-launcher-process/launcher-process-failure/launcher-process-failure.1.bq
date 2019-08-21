@@ -21,7 +21,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "creation_date",
+    "name": "creationDate",
     "type": "STRING"
   },
   {

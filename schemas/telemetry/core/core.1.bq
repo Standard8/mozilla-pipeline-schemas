@@ -11,7 +11,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "client_id",
+    "name": "clientId",
     "type": "STRING"
   },
   {

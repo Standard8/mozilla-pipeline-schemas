@@ -6,7 +6,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "changeset_id",
+    "name": "changesetID",
     "type": "STRING"
   },
   {
@@ -18,7 +18,7 @@
       },
       {
         "mode": "NULLABLE",
-        "name": "changed_files",
+        "name": "changedFiles",
         "type": "INT64"
       },
       {
@@ -38,7 +38,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "landing_system",
+    "name": "landingSystem",
     "type": "STRING"
   },
   {
@@ -156,7 +156,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "push_date",
+    "name": "pushDate",
     "type": "INT64"
   },
   {
@@ -166,7 +166,7 @@
   },
   {
     "mode": "REQUIRED",
-    "name": "review_system_used",
+    "name": "reviewSystemUsed",
     "type": "STRING"
   },
   {
