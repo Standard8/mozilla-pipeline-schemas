@@ -7,58 +7,58 @@
   {
     "fields": [
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "architecture",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
-        "name": "buildId",
+        "mode": "NULLABLE",
+        "name": "build_id",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "channel",
         "type": "STRING"
       },
       {
         "mode": "NULLABLE",
-        "name": "displayVersion",
+        "name": "display_version",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "name",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
-        "name": "platformVersion",
+        "mode": "NULLABLE",
+        "name": "platform_version",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "vendor",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "version",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
-        "name": "xpcomAbi",
+        "mode": "NULLABLE",
+        "name": "xpcom_abi",
         "type": "STRING"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "application",
     "type": "RECORD"
   },
   {
-    "mode": "REQUIRED",
-    "name": "creationDate",
+    "mode": "NULLABLE",
+    "name": "creation_date",
     "type": "STRING"
   },
   {
@@ -67,7 +67,7 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "id",
     "type": "STRING"
   },
@@ -182,7 +182,7 @@
         "type": "RECORD"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "metadata",
     "type": "RECORD"
   },
@@ -216,7 +216,7 @@
       {
         "fields": [
           {
-            "mode": "REQUIRED",
+            "mode": "NULLABLE",
             "name": "encoding",
             "type": "STRING"
           },
@@ -233,27 +233,27 @@
                 "type": "STRING"
               }
             ],
-            "mode": "REQUIRED",
+            "mode": "NULLABLE",
             "name": "prio",
             "type": "RECORD"
           }
         ],
         "mode": "REPEATED",
-        "name": "prioData",
+        "name": "prio_data",
         "type": "RECORD"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "reason",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "version",
         "type": "STRING"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "payload",
     "type": "RECORD"
   },
@@ -263,17 +263,17 @@
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "submission_timestamp",
     "type": "TIMESTAMP"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "type",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "version",
     "type": "FLOAT64"
   }

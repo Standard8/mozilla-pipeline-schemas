@@ -5,13 +5,13 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "appUpdateChannel",
+    "mode": "NULLABLE",
+    "name": "app_update_channel",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "appVersion",
+    "mode": "NULLABLE",
+    "name": "app_version",
     "type": "STRING"
   },
   {
@@ -103,7 +103,7 @@
         "type": "RECORD"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "metadata",
     "type": "RECORD"
   },
@@ -133,13 +133,13 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "osName",
+    "mode": "NULLABLE",
+    "name": "os_name",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "osVersion",
+    "mode": "NULLABLE",
+    "name": "os_version",
     "type": "STRING"
   },
   {
@@ -148,13 +148,13 @@
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "submission_timestamp",
     "type": "TIMESTAMP"
   },
   {
-    "mode": "REQUIRED",
-    "name": "telemetryEnabled",
+    "mode": "NULLABLE",
+    "name": "telemetry_enabled",
     "type": "INT64"
   }
 ]

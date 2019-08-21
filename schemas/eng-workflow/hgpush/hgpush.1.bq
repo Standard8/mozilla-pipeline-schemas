@@ -5,8 +5,8 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "changesetID",
+    "mode": "NULLABLE",
+    "name": "changeset_id",
     "type": "STRING"
   },
   {
@@ -18,7 +18,7 @@
       },
       {
         "mode": "NULLABLE",
-        "name": "changedFiles",
+        "name": "changed_files",
         "type": "INT64"
       },
       {
@@ -38,7 +38,7 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "landingSystem",
+    "name": "landing_system",
     "type": "STRING"
   },
   {
@@ -125,7 +125,7 @@
         "type": "RECORD"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "metadata",
     "type": "RECORD"
   },
@@ -156,17 +156,17 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "pushDate",
+    "name": "push_date",
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "repository",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "reviewSystemUsed",
+    "mode": "NULLABLE",
+    "name": "review_system_used",
     "type": "STRING"
   },
   {
@@ -175,7 +175,7 @@
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "submission_timestamp",
     "type": "TIMESTAMP"
   }

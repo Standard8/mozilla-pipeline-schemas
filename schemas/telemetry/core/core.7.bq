@@ -1,7 +1,7 @@
 [
   {
     "mode": "REPEATED",
-    "name": "accessibilityServices",
+    "name": "accessibility_services",
     "type": "STRING"
   },
   {
@@ -10,7 +10,7 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "arch",
     "type": "STRING"
   },
@@ -25,8 +25,8 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
-    "name": "clientId",
+    "mode": "NULLABLE",
+    "name": "client_id",
     "type": "STRING"
   },
   {
@@ -36,27 +36,27 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "defaultBrowser",
+    "name": "default_browser",
     "type": "BOOL"
   },
   {
     "mode": "NULLABLE",
-    "name": "defaultSearch",
+    "name": "default_search",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "device",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "displayVersion",
+    "name": "display_version",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "distributionId",
+    "name": "distribution_id",
     "type": "STRING"
   },
   {
@@ -76,11 +76,11 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "flashUsage",
+    "name": "flash_usage",
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "locale",
     "type": "STRING"
   },
@@ -195,7 +195,7 @@
         "type": "RECORD"
       }
     ],
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "metadata",
     "type": "RECORD"
   },
@@ -225,18 +225,18 @@
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "os",
     "type": "STRING"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "osversion",
     "type": "STRING"
   },
   {
     "mode": "NULLABLE",
-    "name": "profileDate",
+    "name": "profile_date",
     "type": "INT64"
   },
   {
@@ -247,12 +247,12 @@
   {
     "fields": [
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "key",
         "type": "STRING"
       },
       {
-        "mode": "REQUIRED",
+        "mode": "NULLABLE",
         "name": "value",
         "type": "INT64"
       }
@@ -262,7 +262,7 @@
     "type": "RECORD"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "seq",
     "type": "INT64"
   },
@@ -273,11 +273,11 @@
   },
   {
     "mode": "NULLABLE",
-    "name": "showTrackerStatsShare",
+    "name": "show_tracker_stats_share",
     "type": "BOOL"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "submission_timestamp",
     "type": "TIMESTAMP"
   },
@@ -287,7 +287,7 @@
     "type": "INT64"
   },
   {
-    "mode": "REQUIRED",
+    "mode": "NULLABLE",
     "name": "v",
     "type": "INT64"
   }
